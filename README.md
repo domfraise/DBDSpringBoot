@@ -1,10 +1,10 @@
-## Simple Web App Running Spring-Boot
+# Simple Web App Running Spring-Boot
 
-# Prerequisits 
+## Prerequisites
 
 * Java 8+
 
-##Run
+## Run
 
 `mvn spring-boot:run`
 
