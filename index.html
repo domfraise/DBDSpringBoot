@@ -4,32 +4,30 @@
             	<title>We LOVE WEED</title>
         	<style>
         	    body { 
-            	      background-color: hotpink;
 		      font-family: "Times New Roman", "Comic Sans", cursive, serif;
             	    }
 	   	</style>
 		
 		<link rel="stylesheet" href="node_modules/bulma/css/bulma.min.css">
-    	    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 	<body>
-		<header class="hero">
-       			<h1 align="center"> Welcome to WEEDPICS</h1>
-		</header>
-		<div class="hero-body">
-			<div align="center" class="container">			
-				<button id="myButton" style="color: blue" type="button" onclick="Spam()"> Click Me Bitch</button> 
+
+		<section class="hero is-danger">
+			<div class="hero-body">
+				<div align="center" class="container">			
+					<h1 align="center" class="hero title"> Welcome to WEEDPICS!</h1>
+					<button id="myButton" class="button is-success" type="button" onclick="Spam()"> Click Me Bitch</button> 
+				</div>
 			</div>
-		</div>
-		<p align="center">	
-			<img id="weedy" title="weedy" border="20" src="http://78.media.tumblr.com/tumblr_mc0l1cFJSo1r4chwro1_1280.jpg"></img>
-		</p>
-	
-		<script>
-	            function Spam() {
-                        
-    			document.getElementById("weedy").src ="https://i.pinimg.com/736x/eb/4f/db/eb4fdb08acc7ee728f312c477e2fd02a---girls-weed-girls.jpg";
-    		    }
+		</section> 
+		<section class="hero is-success">
+			<p align="center">	
+				<img id="weedy" title="weedy" border="20" src="http://78.media.tumblr.com/tumblr_mc0l1cFJSo1r4chwro1_1280.jpg"></img>
+			</p>
+		</section>
+		<script src="src/main/resources/static/index.js">
 		</script>
 	</body>
 
