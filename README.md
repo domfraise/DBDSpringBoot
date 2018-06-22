@@ -3,7 +3,8 @@
 ## Prerequisites
 
 * Java 8+
-
+* Apache Maven 3+
+	
 ## Run
 
 `mvn spring-boot:run`
