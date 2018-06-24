@@ -11,4 +11,6 @@
 
 Or for lightweight testing of static files
 
+`cd src/main/rescources/static`
+
 `python -m SimpleHTTPServer 8080`
