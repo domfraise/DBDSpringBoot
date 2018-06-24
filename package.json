@@ -11,5 +11,7 @@
     "url": ".git"
   },
   "author": "DBD Technologies",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+  }
 }
