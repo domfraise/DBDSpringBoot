@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-<title>Spring Boot Thymeleaf Hello World Example</title>
+<title>Sign Up</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
 <link rel="stylesheet" type="text/css"
@@ -9,14 +9,64 @@
 
 
 </head>
-<body>
+	<body>
+		<!-- Header-->
+		<section class="hero is-danger">
+			<div class="hero-body">
+				<div class="columns">
+					<div class="column">
+					</div>
+					<div class="column is-three-quarters">
+						<div align="center" class="container">			
+							<h1 align="center" class="hero title"> Sign Up To WEEDPICS!</h1>
+						</div>
+					</div>
+					<div class="column">
+					</div>
+				</div>
+			</div>
+		</section>
 
-	<div class="container">
-            hello
-	</div>
-	<!-- /.container -->
+		<!-- Body-->
+		<section class="hero is-success">		
+			<div class="hero-body">
+				<div class="columns"> 
+
+					<div class="column is-one-quarter">
+						
+					</div>
+					<!-- Centeral section-->
+					<div class="column is-one-half">
+						<form method="POST" th:action="@{/index2}" th:object="${user}">
+						<div class="field">
+							<label class="label">Name</label>
+							<div class="control">
+								<input class="input" th:value="*{name}" type="text" placeholder="Text input"/>
+								<input type="submit"/>
+							</div>
+						</div>
+						</form>
+					</div>
+					<div class="column is-one-quarter">
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer class="footer is-danger">
+
+			<div class="container has-text-centered">
+				<p>
+				DBD Inc.
+				&#169; 2017+
+				</p>	
+
+			</div>
+		</footer>
+
+	</body>
 
 
-</body>
+
+
 </html>
 
