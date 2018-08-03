@@ -7,18 +7,18 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 @Controller
-public class HelloController {
+public class SignUpController {
 
-	@RequestMapping("/index2")
-	public String index2(Model model) {
+	@RequestMapping("/sign-up")
+	public String signUp(Model model) {
 		model.addAttribute("user", new User());
-		return "index2";
+		return "sign-up";
 	}  
 
-	@RequestMapping(value="/index2", method=RequestMethod.POST)
-	public String index2(@ModelAttribute(value = "user") User user) {
+	@RequestMapping(value="/sign-up", method=RequestMethod.POST)
+	public String createUser(@ModelAttribute(value = "user") User user) {
 		System.out.println(user.name);
-		return "index2";
+		return "sign-up";
 	}  
 
 	//    @RequestMapping("/name/{name}")
