@@ -5,11 +5,10 @@
 	http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<artifactId>spring-boot-web-thymeleaf</artifactId>
+	<artifactId>spring-boot-web-app</artifactId>
 	<packaging>jar</packaging>
-	<name>Spring Boot Web Thymeleaf Example</name>
-	<description>Spring Boot Web Thymeleaf Example</description>
-	<url>https://www.mkyong.com</url>
+	<name>Spring Boot Web App</name>
+	<description>Spring Boot Web App</description>
 	<version>1.0</version>
 
 	<parent>
@@ -47,6 +46,12 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
 		</dependency>
+
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.2.4</version>
+        </dependency>
 	</dependencies>
 	
 	<build>
@@ -56,6 +61,15 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+
+            <plugin>
+                <groupId>org.liquibase</groupId>
+                <artifactId>liquibase-maven-plugin</artifactId>
+                <version>3.6.2</version>
+                <configuration>
+                    <propertyFile>src/main/properties/liquibase.properties</propertyFile>
+                </configuration>
+            </plugin>
 		</plugins>
 	</build>
 </project>
