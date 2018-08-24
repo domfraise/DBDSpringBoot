@@ -18,7 +18,7 @@
 					</div>
 					<div class="column is-three-quarters">
 						<div align="center" class="container">			
-							<h1 align="center" class="hero title"> Sign Up To WEEDPICS!</h1>
+							<h1 align="center" class="hero title"> Sign Up to LovePics</h1>
 						</div>
 					</div>
 					<div class="column">
@@ -37,11 +37,13 @@
 					</div>
 					<!-- Centeral section-->
 					<div class="column is-one-half">
+						<!--/*@thymesVar id="user" type="model.User"*/-->
 						<form method="POST" th:action="@{/sign-up}" th:object="${user}">
 						<div class="field">
 							<label class="label">Name</label>
 							<div class="control">
-								<input class="input" th:field="*{name}" type="text" placeholder="Text input"/>
+								<input class="input" th:field="*{email}" type="text" placeholder="Email"/>
+								<input class="input" th:field="*{password}" type="text" placeholder="Password"/>
 								<input type="submit"/>
 							</div>
 						</div>
