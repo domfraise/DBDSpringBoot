@@ -37,15 +37,30 @@
 					<!-- Centeral section-->
 					<div class="column is-one-half">
 						<!--/*@thymesVar id="user" type="model.User"*/-->
-						<form method="POST" th:action="@{/sign-up}" th:object="${user}">
-						<div class="field">
-							<label class="label">Name</label>
-							<div class="control">
-								<input class="input" th:field="*{email}" type="text" placeholder="Email"/>
-								<input class="input" th:field="*{password}" type="text" placeholder="Password"/>
-								<input type="submit"/>
-							</div>
-						</div>
+						<form method="POST" th:action="@{/index2}" th:object="${user}">
+                            <div class="field">
+                                <label class="label">Email</label>
+                                <div class="control has-icons-left">
+                                    <input class="input" th:field="*{email}" type="text" placeholder="someone@email.com"/>
+                                    <span class="icon is-small is-left">
+                                        <i class="fa fa-user"></i>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="field">
+                                <label class="label">Password</label>
+                                <div class="control has-icons-left">
+                                    <input class="input" th:field="*{password}" type="password" placeholder="Password"/>
+                                    <span class="icon is-small is-left">
+                                        <i class="fa fa-key"></i>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="field" align="center">
+                                <input class="button" type="submit"/>
+                            </div>
 						</form>
 					</div>
 					<div class="column is-one-quarter">
