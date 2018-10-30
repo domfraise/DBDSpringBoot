@@ -4,7 +4,10 @@
   "description": "Simple spring boot web app",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "css-build": "node-sass --omit-source-map-url src/main/resources/static/sass/app.scss src/main/resources/static/css/app.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
   },
   "repository": {
     "type": "git",
@@ -12,6 +15,9 @@
   },
   "author": "DBD Technologies",
   "license": "ISC",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
+    "bulma": "^0.7.2",
+    "node-sass": "^4.9.4"
   }
 }
