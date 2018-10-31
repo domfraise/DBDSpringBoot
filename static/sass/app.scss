@@ -13,9 +13,8 @@ $light-blue: #5DB7DE;
 
 // Update Bulma's global variables
 $family-sans-serif: "Nunito", sans-serif;
-$grey-dark: $beige-light;
 $primary: $light-blue;
-$link: $grey-dark;
+//$link: $grey-light;
 $widescreen-enabled: false;
 $fullhd-enabled: false;
 
@@ -25,6 +24,7 @@ $control-border-width: 2px;
 $input-border-color: transparent;
 $input-shadow: none;
 $navbar-padding-horizontal: 2rem;
+$navbar-background-color: $pink;
 
 // Import only what you need from Bulma
  @import "node_modules/bulma/sass/utilities/_all.sass";

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "css-build": "node-sass --omit-source-map-url src/main/resources/static/sass/app.scss src/main/resources/static/css/app.css",
+    "css-build": "node-sass --omit-source-map-url static/sass/app.scss static/css/app.css",
     "css-watch": "npm run css-build -- --watch",
     "start": "npm run css-watch"
   },
