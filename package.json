@@ -15,7 +15,6 @@
   },
   "author": "DBD Technologies",
   "license": "ISC",
-  "dependencies": {},
   "devDependencies": {
     "bulma": "^0.7.2",
     "node-sass": "^4.9.4"
