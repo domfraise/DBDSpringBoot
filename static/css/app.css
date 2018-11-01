@@ -576,10 +576,10 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   background-color: #4a4a4a !important; }
 
 .has-text-grey {
-  color: #7a7a7a !important; }
+  color: #d1d1d1 !important; }
 
 .has-background-grey {
-  background-color: #7a7a7a !important; }
+  background-color: #d1d1d1 !important; }
 
 .has-text-grey-light {
   color: #b5b5b5 !important; }
@@ -1479,7 +1479,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   .button.is-static {
     background-color: whitesmoke;
     border-color: #dbdbdb;
-    color: #7a7a7a;
+    color: #d1d1d1;
     box-shadow: none;
     pointer-events: none; }
   .button.is-rounded {
@@ -1571,19 +1571,19 @@ a.has-text-danger:hover, a.has-text-danger:focus {
     background-color: whitesmoke;
     border-color: whitesmoke;
     box-shadow: none;
-    color: #7a7a7a; }
+    color: #d1d1d1; }
     .input[disabled]::-moz-placeholder,
     .textarea[disabled]::-moz-placeholder {
-      color: rgba(122, 122, 122, 0.3); }
+      color: rgba(209, 209, 209, 0.3); }
     .input[disabled]::-webkit-input-placeholder,
     .textarea[disabled]::-webkit-input-placeholder {
-      color: rgba(122, 122, 122, 0.3); }
+      color: rgba(209, 209, 209, 0.3); }
     .input[disabled]:-moz-placeholder,
     .textarea[disabled]:-moz-placeholder {
-      color: rgba(122, 122, 122, 0.3); }
+      color: rgba(209, 209, 209, 0.3); }
     .input[disabled]:-ms-input-placeholder,
     .textarea[disabled]:-ms-input-placeholder {
-      color: rgba(122, 122, 122, 0.3); }
+      color: rgba(209, 209, 209, 0.3); }
   .input[readonly],
   .textarea[readonly] {
     box-shadow: none; }
@@ -1736,7 +1736,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
     color: #363636; }
   .checkbox[disabled],
   .radio[disabled] {
-    color: #7a7a7a;
+    color: #d1d1d1;
     cursor: not-allowed; }
 
 .radio + .radio {
@@ -1782,15 +1782,15 @@ a.has-text-danger:hover, a.has-text-danger:focus {
       background-color: whitesmoke;
       border-color: whitesmoke;
       box-shadow: none;
-      color: #7a7a7a; }
+      color: #d1d1d1; }
       .select select[disabled]::-moz-placeholder {
-        color: rgba(122, 122, 122, 0.3); }
+        color: rgba(209, 209, 209, 0.3); }
       .select select[disabled]::-webkit-input-placeholder {
-        color: rgba(122, 122, 122, 0.3); }
+        color: rgba(209, 209, 209, 0.3); }
       .select select[disabled]:-moz-placeholder {
-        color: rgba(122, 122, 122, 0.3); }
+        color: rgba(209, 209, 209, 0.3); }
       .select select[disabled]:-ms-input-placeholder {
-        color: rgba(122, 122, 122, 0.3); }
+        color: rgba(209, 209, 209, 0.3); }
     .select select::-ms-expand {
       display: none; }
     .select select[disabled]:hover {
@@ -1892,7 +1892,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   .select.is-large {
     font-size: 1.5rem; }
   .select.is-disabled::after {
-    border-color: #7a7a7a; }
+    border-color: #d1d1d1; }
   .select.is-fullwidth {
     width: 100%; }
     .select.is-fullwidth select {
@@ -2378,7 +2378,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
     width: 2.25em;
     z-index: 4; }
   .control.has-icon .input:focus + .icon {
-    color: #7a7a7a; }
+    color: #d1d1d1; }
   .control.has-icon .input.is-small + .icon {
     font-size: 0.75rem; }
   .control.has-icon .input.is-medium + .icon {
@@ -2396,7 +2396,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   .control.has-icons-left .input:focus ~ .icon,
   .control.has-icons-left .select:focus ~ .icon, .control.has-icons-right .input:focus ~ .icon,
   .control.has-icons-right .select:focus ~ .icon {
-    color: #7a7a7a; }
+    color: #d1d1d1; }
   .control.has-icons-left .input.is-small ~ .icon,
   .control.has-icons-left .select.is-small ~ .icon, .control.has-icons-right .input.is-small ~ .icon,
   .control.has-icons-right .select.is-small ~ .icon {
@@ -2510,7 +2510,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
     font-size: 0.75rem; }
 
 .navbar {
-  background-color: #FA7C91;
+  background-color: white;
   min-height: 3.25rem;
   position: relative;
   z-index: 30; }
@@ -3077,7 +3077,7 @@ a.navbar-item,
   .navbar-link::after {
     display: none; }
   .navbar-menu {
-    background-color: #FA7C91;
+    background-color: white;
     box-shadow: 0 8px 16px rgba(10, 10, 10, 0.1);
     padding: 0.5rem 0; }
     .navbar-menu.is-active {
