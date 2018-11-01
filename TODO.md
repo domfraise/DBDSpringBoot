@@ -1,7 +1,7 @@
 TODO
 
-* Create log-in form
-* Create DB for log in info
-
 * Improve colour scheme
-* Turn menu into navbar
+* Fix hamburger button
+* make education sections
+* turn education secion to use panels
+
