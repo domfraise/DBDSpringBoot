@@ -4590,3 +4590,9 @@ a.navbar-item,
   @media screen and (min-width: 1088px) {
     .columns.is-variable.is-8-desktop {
       --columnGap: 2rem; } }
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; }
