@@ -9,23 +9,36 @@ $pink: #FA7C91;
 $brown: #757763;
 $beige-light: #D0D1CD;
 $beige-lighter: #EFF0EB;
-$light-blue: #5DB7DE;
 $grey: #d1d1d1;
 $light-grey: #f7f7f7;
 $dark-grey: #4a4a4a;
 
+$df-primary: #03A9F4;
+$df-light-primary: #B3E5FC;
+$df-dark-primary: #0288D1;
+$df-white: #FFFFFF; //text
+
+$df-accent: #9E9E9E;
+$df-primary-text: #212121;
+$df-secondary-text: #757575;
+$df-divider-colour: #BDBDBD;
+
 // Update Bulma's global variables
 $family-sans-serif: "Nunito", sans-serif;
-$primary: $light-blue;
 $widescreen-enabled: false;
 $fullhd-enabled: false;
+$primary: $df-primary;
+$grey: $df-accent;
+$dark: $df-secondary-text;
+$white: $df-white;
+$light: $df-divider-colour;
 
 // Update some of Bulma's component variables
 $control-border-width: 2px;
 $input-border-color: transparent;
 $input-shadow: none;
 $navbar-padding-horizontal: 2rem;
-$navbar-item-hover-color: $dark-grey;
+$navbar-item-hover-color: $grey;
 
 // Import only what you need from Bulma
  @import "node_modules/bulma/sass/utilities/_all.sass";
