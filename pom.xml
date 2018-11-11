@@ -22,6 +22,25 @@
         <docker.image.prefix>domfraise</docker.image.prefix>
 	</properties>
 
+	<profiles>
+        <profile>
+            <id>dev</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+                <jks.password>pa55word</jks.password>
+                <jks.file>dev.jks</jks.file>
+            </properties>
+        </profile>
+        <profile>
+            <id>prod</id>
+            <properties>
+                <jks.password>${jks.password}</jks.password>
+                <jks.password>domfraise.jks</jks.password>
+            </properties>
+        </profile>
+    </profiles>
 	<dependencies>
 
 		<dependency>
