@@ -37,7 +37,7 @@
             <id>prod</id>
             <properties>
                 <jks.password>${jks.password}</jks.password>
-                <jks.password>domfraise.jks</jks.password>
+                <jks.file>domfraise.jks</jks.file>
             </properties>
         </profile>
     </profiles>
