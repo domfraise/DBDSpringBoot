@@ -4,42 +4,28 @@
 // @import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
 
 // Set your brand colors
-$purple: #8A4D76;
-$pink: #FA7C91;
-$brown: #757763;
-$beige-light: #D0D1CD;
-$beige-lighter: #EFF0EB;
-$grey: #d1d1d1;
-$light-grey: #f7f7f7;
-$dark-grey: #4a4a4a;
 
+//Background colours
 $df-primary: #03A9F4;
-$df-light-primary: #B3E5FC;
-$df-dark-primary: #0288D1;
+$df-primary-light: #B3E5FC;
+$df-primary-dark: #0288D1;
 $df-white: #FFFFFF; //text
 
+//Accent Colours
 $df-accent: #9E9E9E;
 $df-primary-text: #212121;
 $df-secondary-text: #757575;
 $df-divider-colour: #BDBDBD;
 
-// Update Bulma's global variables
 $family-sans-serif: "Nunito", sans-serif;
-$widescreen-enabled: false;
-$fullhd-enabled: false;
+
+//Overwrite Bulma Variables
 $primary: $df-primary;
-$grey: $df-accent;
-$dark: $df-secondary-text;
-$white: $df-white;
-$light: $df-divider-colour;
-
-// Update some of Bulma's component variables
-$control-border-width: 2px;
-$input-border-color: transparent;
-$input-shadow: none;
-$navbar-padding-horizontal: 2rem;
-$navbar-item-hover-color: $grey;
-
+$info: $df-primary-light;
+$link: $df-primary-dark;
+$light: $df-accent;
+$dark: $df-primary-text;
+//$navbar-background-color: $df-primary-dark;
 // Import only what you need from Bulma
  @import "node_modules/bulma/sass/utilities/_all.sass";
  @import "node_modules/bulma/sass/base/_all.sass";
@@ -53,6 +39,7 @@ $navbar-item-hover-color: $grey;
  @import "node_modules/bulma/sass/layout/section.sass";
  @import "node_modules/bulma/sass/grid/columns.sass";
  @import "node_modules/bulma/sass/grid/tiles.sass";
+ @import "node_modules/bulma/sass/components/list.sass";
 
 .navbar {
  position: fixed;
@@ -60,3 +47,7 @@ $navbar-item-hover-color: $grey;
  left: 0;
  width: 100%
 }
+//
+//.has-background-primary-dark{
+//  background-color: $df-primary-dark;
+//}
