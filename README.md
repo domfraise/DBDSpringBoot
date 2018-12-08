@@ -8,17 +8,37 @@
 * User `postgres` must exist with credentials found in `src/main/properties/liquibase.properties`
 
 ## Local Set-up
-* Create a local database DBD 
+
+### Backend
+* Create a local database DBD
 `CREATE DATABASE DBD`
 * Run liquibase to create schema
 `mvn liquibase:update`
-	
+
+### Frontend
+
+`cd frontend`
+
+`npm install`
+
+
+
+
 ## Run
 
-`mvn spring-boot:run`
+Run just front end using node
+`npm run serve`
 
-Or for lightweight testing of static files
+Run spring-boot app
+`mvn spring-boot:run -Pdev`
 
-`cd src/main/rescources/static`
 
-`python -m SimpleHTTPServer 8080`
+## Build
+Compile front end
+`npm run build`
+
+Compile whole app
+`sh deployment/create-deployment <PASSWORD>`
+
+## Deploy
+`sh deployment/deploy.sh`

@@ -1,7 +1,11 @@
 #!/usr/bin/env bash
 
-cd ../frontend
+password=$1
+
+cd frontend
 npm run build
 cp -r dist/* ../src/main/resources/static
 cd ..
-mvn clean package -Pdev
+
+ mvn clean package -Pprod -Djks.password=${password}
+
