@@ -2,8 +2,8 @@
     <section class="section">
       <nav class="navbar is-link is-size-5">
         <div class="navbar-brand">
-          <router-link class="nav-item" to="/" title="Logo">
-            <img src="images/DF.png" alt="DF" width="50" height="50">
+          <router-link class="navbar-item" to="/" title="Logo" >
+            <img src="../assets/DF.png" alt="DF">
           </router-link>
 
           <div class="navbar-burger burger" data-target="navMenu">
@@ -18,7 +18,7 @@
           </div>
           <div class="navbar-end has-text-centered">
             <router-link class="navbar-item" to='/'>Home</router-link>
-            <a class="navbar-item disabled-nav">Projects</a>
+            <router-link class="navbar-item" to='/about'>Projects</router-link>
             <a class="navbar-item disabled-nav">Experience</a>
             <a class="navbar-item disabled-nav">Contact</a>
             <a class="navbar-item" href='http://www.github.com/domfraise' target="">

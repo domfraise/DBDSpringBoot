@@ -4,4 +4,5 @@ TODO
 * skills section
 * Disable unused button
 * contact page
+* add footer
 
