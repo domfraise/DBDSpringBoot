@@ -100,22 +100,17 @@
                     <propertyFile>src/main/properties/liquibase.properties</propertyFile>
                 </configuration>
             </plugin>
-		</plugins>
-        <resources>
-            <resource>
-                <directory>src/main/resources</directory>
-                <filtering>true</filtering>
-                <excludes>
-                    <exclude>src/main/resources/static/vue/node_modules</exclude>
-                    <exclude>src/main/resources/static/vue/src</exclude>
-                    <exclude>src/main/resources/static/vue/public</exclude>
-                </excludes>
-                <!--<includes>-->
-                    <!--<include>src/main/resources/keystores</include>-->
-                    <!--<include>src/main/resources/application.properties</include>-->
-                <!--</includes>-->
-            </resource>
-        </resources>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <version>2.6</version>
+                <configuration>
+                    <nonFilteredFileExtensions>
+                        <nonFilteredFileExtension>jks</nonFilteredFileExtension>
+                    </nonFilteredFileExtensions>
+                </configuration>
+            </plugin>
+        </plugins>
 	</build>
 </project>
 
