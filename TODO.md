@@ -1,7 +1,7 @@
 TODO
 
-* Improve colour scheme
-* Fix hamburger button
-* make education sections
 * turn education secion to use panels
+* skills section
+* Disable unused button
+* contact page
 
