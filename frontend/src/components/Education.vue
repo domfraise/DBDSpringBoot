@@ -5,55 +5,49 @@
 
         <h2 class="title is-2">Education</h2>
 
-        <div class="columns level">
-          <div class="column level-item">
-            <img src="../assets/leeds.png" width="50"/>
-          </div>
-          <div class="column level-item">
-            <img src="../assets/uob.png" width="50"/>
-          </div>
-        </div>
+        <div class="columns">
 
-        <div class="columns level">
-          <div class="column level-item ">
-            <div class="">
+          <div class="column">
+            <img src="../assets/leeds.png" width="50"/>
+            <div >
               <h3 class="subtitle is-1 ">University Of Leeds</h3>
               <h4 class="subtitle is-2 has-text-grey-lighter">BSc. Physics Class I</h4>
             </div>
+            <div class="">
+              <h3 class="subtitle is-2" >Key Modules</h3>
+              <br>
+              <ul class="is-size-4 has-text-grey-lighter">
+                <li>Quantum Mechanics</li>
+                <li>Thermodynamics</li>
+                <li>Cosmology</li>
+                <li>Theoretical Elementary Particle Physics</li>
+                <li>Magnetism in Condensed Matter</li>
+              </ul>
+            </div>
           </div>
-          <div class="column level-item">
-            <div>
+
+          <div class="column">
+            <img src="../assets/uob.png" width="50"/>
+            <div >
               <h3 class="subtitle is-1 ">University Of Birmingham</h3>
               <h4 class="subtitle is-2 has-text-grey-lighter">MSc. Computer Science with Distinction</h4>
             </div>
-          </div>
-        </div>
-        <div class="columns level">
-          <div class="column level-item">
-            <h3 class="subtitle is-2" >Key Modules</h3>
 
-            <br>
-            <ul class="is-size-4 has-text-grey-lighter">
-              <li>Quantum Mechanics</li>
-              <li>Thermodynamics</li>
-              <li>Cosmology</li>
-              <li>Theoretical Elementary Particle Physics</li>
-              <li>Magnetism in Condensed Matter</li>
-            </ul>
+            <div class="column level-item">
+              <h3 class="subtitle is-2">Key Modules</h3>
+              <br>
+              <ul class="is-size-4 has-text-grey-lighter">
+                <li>Software Engineering</li>
+                <li>Algorithms and Data Structures</li>
+                <li>Cryptography</li>
+                <li>Databases</li>
+                <li>Operating Systems and Networks</li>
+              </ul>
+            </div>
           </div>
 
-          <div class="column level-item">
-            <h3 class="subtitle is-2">Key Modules</h3>
-            <br>
-            <ul class="is-size-4 has-text-grey-lighter">
-              <li>Software Engineering</li>
-              <li>Algorithms and Data Structures</li>
-              <li>Cryptography</li>
-              <li>Databases</li>
-              <li>Operating Systems and Networks</li>
-            </ul>
-          </div>
         </div>
+
       </div>
     </div>
   </section>
