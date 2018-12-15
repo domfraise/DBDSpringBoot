@@ -1,6 +1,6 @@
 <template>
     <section class="section">
-      <nav class="navbar is-link is-size-5">
+      <nav class="navbar is-link is-size-5 is-fixed-top">
         <div class="navbar-brand">
           <router-link class="navbar-item" to="/" title="Logo" >
             <img src="../assets/DF.png" alt="DF">
@@ -18,9 +18,9 @@
           </div>
           <div class="navbar-end has-text-centered">
             <router-link class="navbar-item" to='/'>Home</router-link>
-            <router-link class="navbar-item" to='/about'>Projects</router-link>
-            <a class="navbar-item disabled-nav">Experience</a>
-            <a class="navbar-item disabled-nav">Contact</a>
+            <router-link class="navbar-item" to='/about'><strike>Projects</strike></router-link>
+            <a class="navbar-item "><strike>Experience</strike></a>
+            <router-link class="navbar-item" to="/contact">Contact</router-link>
             <a class="navbar-item" href='http://www.github.com/domfraise' target="">
               <span class="icon"><i class="fab fa-github fa-lg"></i></span>
             </a>
