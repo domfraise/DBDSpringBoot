@@ -7,13 +7,20 @@
         <div class="tile is-ancestor">
           <div class="tile is-vertical">
             <div class="tile">
-              <div class="tile is-vertical">
-                <div class="tile is-parent">
-                  <div class="tile is-child box">
-                    <p class="title">Java</p>
-                  </div>
+              <div class="tile is-parent">
+                <div class="tile is-child box">
+                  <p class="title">Java</p>
                 </div>
+              </div>
+              <div class="tile is-parent">
+                <div class="tile is-child box">
+                  <p class="title">Python</p>
+                </div>
+              </div>
 
+            </div>
+            <div class="tile">
+              <div class="tile is-vertical">
                 <div class="tile">
                   <div class="tile is-parent">
                     <div class="tile is-child box">
@@ -41,11 +48,6 @@
                 </div>
               </div>
               <div class="tile is-vertical">
-                <div class="tile is-parent">
-                  <div class="tile is-child box">
-                    <p class="title">Python</p>
-                  </div>
-                </div>
                 <div class="tile is-vertical">
                   <div class="tile is-parent">
                     <div class="tile is-child box">
@@ -66,13 +68,14 @@
                   </div>
                 </div>
 
-                <div class="tile is-parent">
-                  <div class="tile is-child box">
-                    <p class="title">Jenkins</p>
-                  </div>
-                </div>
+
               </div>
               <div class="tile is-vertical">
+                <div class="tile is-parent">
+                  <div class="tile is-child box">
+                    <p class="title">SQL</p>
+                  </div>
+                </div>
                 <div class="tile is-parent">
                   <div class="tile is-child box">
                     <p class="title">Dart</p>
@@ -81,11 +84,6 @@
                 <div class="tile is-parent">
                   <div class="tile is-child box">
                     <p class="title">Flutter</p>
-                  </div>
-                </div>
-                <div class="tile is-parent">
-                  <div class="tile is-child box">
-                    <p class="title">SQL</p>
                   </div>
                 </div>
               </div>
@@ -100,6 +98,36 @@
               <div class="tile is-parent">
                 <div class="tile is-child box">
                   <p class="title">Elastic Search</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="tile">
+              <div class="tile is-parent">
+                <div class="tile is-child box">
+                  <p class="title">ActiveMQ</p>
+                </div>
+              </div>
+              <div class="tile is-parent">
+                <div class="tile is-child box">
+                  <p class="title">Nagios</p>
+                </div>
+              </div>
+              <div class="tile is-parent">
+                <div class="tile is-child box">
+                  <p class="title">Jenkins</p>
+                </div>
+              </div>
+            </div>
+            <div class="tile">
+              <div class="tile is-parent">
+                <div class="tile is-child box">
+                  <p class="title">Docker</p>
+                </div>
+              </div>
+              <div class="tile is-parent">
+                <div class="tile is-child box">
+                  <p class="title">Kubernetes</p>
                 </div>
               </div>
             </div>
