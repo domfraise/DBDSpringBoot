@@ -13,10 +13,9 @@
               <h3 class="subtitle is-3 ">University Of Leeds</h3>
               <h4 class="subtitle is-4 has-text-grey-lighter">BSc. Physics Class I</h4>
             </div>
-
+            <br>
             <div class="">
               <h3 class="subtitle is-3" >Key Modules</h3>
-              <br>
               <ul class="is-size-4 has-text-grey-lighter">
                 <li>Quantum Mechanics</li>
                 <li>Thermodynamics</li>
@@ -33,10 +32,9 @@
               <h3 class="subtitle is-3 ">University Of Birmingham</h3>
               <h4 class="subtitle is-4 has-text-grey-lighter">MSc. Computer Science with Distinction</h4>
             </div>
-
+            <br>
             <div >
               <h3 class="subtitle is-3">Key Modules</h3>
-              <br>
               <ul class="is-size-4 has-text-grey-lighter">
                 <li>Software Engineering</li>
                 <li>Algorithms and Data Structures</li>
