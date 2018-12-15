@@ -4,6 +4,7 @@
     <Title />
     <Education />
     <Languages />
+    <Footer />
   </div>
 </template>
 
@@ -13,6 +14,7 @@ import Navbar from '@/components/Navbar.vue'
 import Title from '@/components/Title.vue'
 import Education from '@/components/Education.vue'
 import Languages from '@/components/Languages.vue'
+import Footer from '@/components/Footer.vue'
 
 export default {
   name: 'home',
@@ -20,7 +22,8 @@ export default {
     Navbar,
     Title,
     Education,
-    Languages
+    Languages,
+    Footer
 
   }
 }
