@@ -3,6 +3,7 @@
     <Navbar />
     <Title />
     <Education />
+    <Languages />
   </div>
 </template>
 
@@ -11,13 +12,16 @@
 import Navbar from '@/components/Navbar.vue'
 import Title from '@/components/Title.vue'
 import Education from '@/components/Education.vue'
+import Languages from '@/components/Languages.vue'
 
 export default {
   name: 'home',
   components: {
     Navbar,
+    Title,
     Education,
-    Title
+    Languages
+
   }
 }
 </script>

@@ -10,11 +10,12 @@
           <div class="column">
             <img src="../assets/leeds.png" width="50"/>
             <div >
-              <h3 class="subtitle is-1 ">University Of Leeds</h3>
-              <h4 class="subtitle is-2 has-text-grey-lighter">BSc. Physics Class I</h4>
+              <h3 class="subtitle is-3 ">University Of Leeds</h3>
+              <h4 class="subtitle is-4 has-text-grey-lighter">BSc. Physics Class I</h4>
             </div>
+
             <div class="">
-              <h3 class="subtitle is-2" >Key Modules</h3>
+              <h3 class="subtitle is-3" >Key Modules</h3>
               <br>
               <ul class="is-size-4 has-text-grey-lighter">
                 <li>Quantum Mechanics</li>
@@ -29,12 +30,12 @@
           <div class="column">
             <img src="../assets/uob.png" width="50"/>
             <div >
-              <h3 class="subtitle is-1 ">University Of Birmingham</h3>
-              <h4 class="subtitle is-2 has-text-grey-lighter">MSc. Computer Science with Distinction</h4>
+              <h3 class="subtitle is-3 ">University Of Birmingham</h3>
+              <h4 class="subtitle is-4 has-text-grey-lighter">MSc. Computer Science with Distinction</h4>
             </div>
 
-            <div class="column level-item">
-              <h3 class="subtitle is-2">Key Modules</h3>
+            <div >
+              <h3 class="subtitle is-3">Key Modules</h3>
               <br>
               <ul class="is-size-4 has-text-grey-lighter">
                 <li>Software Engineering</li>
