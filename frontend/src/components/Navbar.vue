@@ -18,7 +18,7 @@
           </div>
           <div class="navbar-end has-text-centered">
             <router-link class="navbar-item" to='/'>Home</router-link>
-            <router-link class="navbar-item" to='/about'><strike>Projects</strike></router-link>
+            <router-link class="navbar-item" ><strike>Projects</strike></router-link>
             <a class="navbar-item "><strike>Experience</strike></a>
             <router-link class="navbar-item" to="/contact">Contact</router-link>
             <a class="navbar-item" href='http://www.github.com/domfraise' target="">
