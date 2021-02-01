@@ -17,7 +17,8 @@
           <img src="../assets/sous-chef.png" width="100"/>
           <h3 class="title is-3">Sous Chef - Cooking Timer</h3>
           <p>
-            A smart cooking timer allowing you to start multiple timers to finish at the same time. Perfect for preparing a complex roast or christmas dinner
+            A smart cooking timer allowing you to start multiple timers to finish at the same time. Perfect for preparing a complex roast or christmas dinner.
+            The app is written in Dart using the flutter framework, backed by Firebase Firestore as the persistence layer. The application is closed sourced, however samples can be provided on request.
           </p>
         </div>
       </div>

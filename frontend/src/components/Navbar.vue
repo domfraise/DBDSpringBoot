@@ -19,7 +19,6 @@
           <div class="navbar-end has-text-centered">
             <router-link class="navbar-item" to='/'>Home</router-link>
             <router-link class="navbar-item" to='/projects'>Projects</router-link>
-            <a class="navbar-item "><strike>Experience</strike></a>
             <router-link class="navbar-item" to="/contact">Contact</router-link>
             <a class="navbar-item" href='http://www.github.com/domfraise' target="">
               <span class="icon"><i class="fab fa-github fa-lg"></i></span>
