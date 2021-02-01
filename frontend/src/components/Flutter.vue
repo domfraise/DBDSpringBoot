@@ -38,6 +38,36 @@
           </div>
       </div>
     </section>
+    <section class="section hero">
+          <div class="hero-body has-text-centered">
+            <img src="../assets/pygame.png" width="300"/>
+            <div class="container">
+              <h2 class="title is-2">Python Arcade Games Using PyGame</h2>
+              <p>
+                PyGame allows for simple games to be created and played using python.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="section hero is-small">
+          <div class="hero-head">
+            <div class="container has-text-centered">
+              <img src="../assets/flappy_bird.png" width="100"/>
+              <h3 class="title is-3">Flappy Bird Clone</h3>
+              <p>
+                A clone of the once popular game Flappy Bird. Includes a high score system as well as sound effects.
+              </p>
+            </div>
+          </div>
+          <div class='hero-body'>
+              <div class='container has-text-centered'>
+
+                <img src="../assets/screenshots/flappy_circle.png" width="600"/>
+
+              </div>
+          </div>
+        </section>
   </div>
+
 </template>
 
