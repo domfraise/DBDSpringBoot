@@ -41,5 +41,6 @@ Compile whole app
 `sh deployment/create-deployment <PASSWORD>`
 
 ## Deploy
+`npm run build`
 `firebase deploy --only hosting`
 `sh deployment/deploy.sh` 

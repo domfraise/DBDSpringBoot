@@ -1,5 +1,5 @@
 <template>
-    <section class="section">
+    <section>
       <nav class="navbar is-link is-size-5 is-fixed-top">
         <div class="navbar-brand">
           <router-link class="navbar-item" to="/" title="Logo" >

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="section hero">
+    <section class="section hero footer">
       <div class="hero-body has-text-centered">
         <img src="../assets/icons/flutter.png" width="100"/>
         <div class="container">
@@ -38,7 +38,7 @@
           </div>
       </div>
     </section>
-    <section class="section hero">
+    <section class="section hero footer">
           <div class="hero-body has-text-centered">
             <img src="../assets/pygame.png" width="300"/>
             <div class="container">
@@ -63,6 +63,23 @@
               <div class='container has-text-centered'>
 
                 <img src="../assets/screenshots/flappy_circle.png" width="600"/>
+
+              </div>
+          </div>
+        </section>
+        <section class="section hero is-small">
+          <div class="hero-head">
+            <div class="container has-text-centered">
+              <h3 class="title is-3">Pokemon Battle Scene</h3>
+              <p>
+                A working battle scene from Pokemon, includes 4 types of attacks and over 250 random pokemon to battle
+              </p>
+            </div>
+          </div>
+          <div class='hero-body'>
+              <div class='container has-text-centered'>
+
+                <img src="../assets/screenshots/pokemon.png" width="600"/>
 
               </div>
           </div>
